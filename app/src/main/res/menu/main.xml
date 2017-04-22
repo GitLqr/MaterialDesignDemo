@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="add"
+        app:showAsAction="withText"/>
+    <item
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="101"
+        android:title="share"
+        app:showAsAction="withText"
+        />
+    <item
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:orderInCategory="103"
+        android:title="setting"
+        app:showAsAction="withText"
+        />
+</menu>

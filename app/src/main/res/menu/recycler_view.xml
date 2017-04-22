@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/linear_ver"
+        android:title="线性垂直"/>
+    <item
+        android:id="@+id/linear_hor"
+        android:title="线性水平"/>
+    <item
+        android:id="@+id/grid_ver"
+        android:title="网格垂直"/>
+    <item
+        android:id="@+id/grid_hor"
+        android:title="网格水平"/>
+    <item
+        android:id="@+id/staggered_ver"
+        android:title="瀑布流垂直"/>
+    <item
+        android:id="@+id/staggered_hor"
+        android:title="瀑布流水平"/>
+</menu>
