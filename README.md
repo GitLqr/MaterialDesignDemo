@@ -40,7 +40,7 @@ SwipeRefreshLayout是谷歌推出的一个下拉刷新控件，符合MD设计，
 
 ## 2、效果预览：
 
-![](screenshots\1.gif)
+![](screenshots/1.gif)
 
 
 # 二、ListPopupWindow
@@ -69,7 +69,7 @@ popupWindow大家都知道，是Android中弹出式菜单，而ListPopupWindow�
 
 ## 2、效果预览：
 
-![](screenshots\2.gif)
+![](screenshots/2.gif)
 
 # 三、PopupMenu
 
@@ -101,7 +101,7 @@ PopupMenu代表弹出式菜单,它会在指定组件上弹出PopupMenu,默认情
 
 ## 2、效果预览：
 
-![](screenshots\3.gif)
+![](screenshots/3.gif)
 
 # 四、LinearLayoutCompat
 
@@ -124,7 +124,7 @@ LinearLayoutCompat是对LinearLayout的扩展，可以为此布局中的子View�
 
 ## 2、效果预览：
 
-![](screenshots\4.gif)
+![](screenshots/4.gif)
 
 # 五、RecyclerView
 
@@ -196,7 +196,7 @@ RecyclerView可以使用布局管理器有三种：
 
 ## 2、效果预览：
 
-![](screenshots\5.gif)
+![](screenshots/5.gif)
 
 
 # 最后附上Demo链接
