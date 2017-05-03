@@ -33,6 +33,15 @@
         <activity
             android:name=".RecyclerViewActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RecyclerVIewDecorationActivityOne"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RecyclerVIewDecorationActivityTwo"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RecyclerVIewDecorationActivityThree"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

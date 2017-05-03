@@ -46,5 +46,26 @@
             android:onClick="recyclerView"
             android:text="RecyclerView"
             android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recyclerViewDecorationOne"
+            android:text="RecyclerViewDecorationOne"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recyclerViewDecorationTwo"
+            android:text="RecyclerViewDecorationTwo"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recyclerViewDecorationThree"
+            android:text="RecyclerViewDecorationThree"
+            android:textAllCaps="false"/>
     </LinearLayout>
 </ScrollView>

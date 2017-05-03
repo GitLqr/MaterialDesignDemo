@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getLayoutInflater();
     }
 
     private void jumpToActivity(Class activityClass) {
@@ -36,5 +37,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void recyclerView(View view) {
         jumpToActivity(RecyclerViewActivity.class);
+    }
+
+    public void recyclerViewDecorationOne(View view) {
+        jumpToActivity(RecyclerVIewDecorationActivityOne.class);
+    }
+
+    public void recyclerViewDecorationTwo(View view) {
+        jumpToActivity(RecyclerVIewDecorationActivityTwo.class);
+    }
+
+    public void recyclerViewDecorationThree(View view) {
+        jumpToActivity(RecyclerVIewDecorationActivityThree.class);
     }
 }
