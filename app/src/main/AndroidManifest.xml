@@ -42,6 +42,9 @@
         <activity
             android:name=".RecyclerVIewDecorationActivityThree"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ItemTouchHelperActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

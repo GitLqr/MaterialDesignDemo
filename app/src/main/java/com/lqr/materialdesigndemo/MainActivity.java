@@ -50,4 +50,8 @@ public class MainActivity extends AppCompatActivity {
     public void recyclerViewDecorationThree(View view) {
         jumpToActivity(RecyclerVIewDecorationActivityThree.class);
     }
+
+    public void itemTouchHelper(View view) {
+        jumpToActivity(ItemTouchHelperActivity.class);
+    }
 }

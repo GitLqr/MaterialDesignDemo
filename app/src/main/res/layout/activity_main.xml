@@ -67,5 +67,12 @@
             android:onClick="recyclerViewDecorationThree"
             android:text="RecyclerViewDecorationThree"
             android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="itemTouchHelper"
+            android:text="ItemTouchHelper"
+            android:textAllCaps="false"/>
     </LinearLayout>
 </ScrollView>
