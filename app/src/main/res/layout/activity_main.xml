@@ -74,5 +74,25 @@
             android:onClick="itemTouchHelper"
             android:text="ItemTouchHelper"
             android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="textInputLayout"
+            android:text="TextInputLayout"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="searchView"
+            android:text="SearchView"
+            android:textAllCaps="false"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="searchView2"
+            android:text="仿网易云音乐本地音乐搜索"
+            android:textAllCaps="false"/>
     </LinearLayout>
 </ScrollView>

@@ -45,6 +45,17 @@
         <activity
             android:name=".ItemTouchHelperActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TextInputLayoutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SearchViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SearchViewActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar2"/>
     </application>
 
 </manifest>

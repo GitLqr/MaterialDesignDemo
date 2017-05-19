@@ -8,4 +8,43 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--没有ActionBar主题-->
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="colorPrimary">#D33A31</item>
+        <item name="colorPrimaryDark">#D33A31</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <!--没有ActionBar主题，自定义SearchView样式-->
+    <style name="AppTheme.NoActionBar2" parent="AppTheme">
+        <item name="colorPrimary">#D33A31</item>
+        <item name="colorPrimaryDark">#D33A31</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+        <!--引入自定义的SearchView样式-->
+        <item name="searchViewStyle">@style/Widget.SearchView</item>
+    </style>
+
+    <style name="Widget.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="defaultQueryHint">搜索本地歌曲</item>
+        <item name="searchIcon">@mipmap/m5</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <!--标题与NavigationIcon的距离-->
+    <style name="Toolbar.MyStyle" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <!--Toolbar标题文字大小-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">15sp</item>
+    </style>
+
 </resources>

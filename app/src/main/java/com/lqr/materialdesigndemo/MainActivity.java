@@ -54,4 +54,15 @@ public class MainActivity extends AppCompatActivity {
     public void itemTouchHelper(View view) {
         jumpToActivity(ItemTouchHelperActivity.class);
     }
+
+    public void textInputLayout(View view) {
+        jumpToActivity(TextInputLayoutActivity.class);
+    }
+
+    public void searchView(View view) {
+        jumpToActivity(SearchViewActivity.class);
+    }
+    public void searchView2(View view) {
+        jumpToActivity(SearchViewActivity2.class);
+    }
 }
