@@ -10,6 +10,7 @@
 
     <!--没有ActionBar主题-->
     <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="android:textColor">#000</item>
         <item name="colorPrimary">#D33A31</item>
         <item name="colorPrimaryDark">#D33A31</item>
         <item name="windowActionBar">false</item>

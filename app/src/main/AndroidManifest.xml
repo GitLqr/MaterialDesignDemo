@@ -56,6 +56,10 @@
             android:name=".SearchViewActivity2"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar2"/>
+        <activity
+            android:name=".TransparentToolbarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

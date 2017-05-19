@@ -94,5 +94,11 @@
             android:onClick="searchView2"
             android:text="仿网易云音乐本地音乐搜索"
             android:textAllCaps="false"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="transparentToolbar"
+            android:text="仿微博上滑时Toolbar透明"
+            android:textAllCaps="false"/>
     </LinearLayout>
 </ScrollView>

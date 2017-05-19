@@ -62,7 +62,12 @@ public class MainActivity extends AppCompatActivity {
     public void searchView(View view) {
         jumpToActivity(SearchViewActivity.class);
     }
+
     public void searchView2(View view) {
         jumpToActivity(SearchViewActivity2.class);
+    }
+
+    public void transparentToolbar(View view) {
+        jumpToActivity(TransparentToolbarActivity.class);
     }
 }
