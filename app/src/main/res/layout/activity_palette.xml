@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/ivPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/palette"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="LQR_Study_Palette_Title"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvBody"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="LQR_Study_Palette_Body"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvDarkMutedColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="darkMutedColor"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvLightMutedColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="lightMutedColor"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvDarkVibrantColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="darkVibrantColor"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvLightVibrantColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="lightVibrantColor"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvMutedColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="mutedColor"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tvVibrantColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="vibrantColor"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

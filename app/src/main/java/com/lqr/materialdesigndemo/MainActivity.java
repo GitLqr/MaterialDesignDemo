@@ -70,4 +70,12 @@ public class MainActivity extends AppCompatActivity {
     public void transparentToolbar(View view) {
         jumpToActivity(TransparentToolbarActivity.class);
     }
+
+    public void palette(View view) {
+        jumpToActivity(PaletteActivity.class);
+    }
+
+    public void palette2(View view) {
+        jumpToActivity(PaletteActivity2.class);
+    }
 }

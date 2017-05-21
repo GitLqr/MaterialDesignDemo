@@ -60,6 +60,12 @@
             android:name=".TransparentToolbarActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".PaletteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".PaletteActivity2"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

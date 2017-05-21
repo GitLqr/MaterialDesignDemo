@@ -48,7 +48,7 @@ public class TransparentToolbarActivity extends AppCompatActivity implements Abs
             return;
         int scrollY = firstVisibleItem * childAt.getHeight() - childAt.getTop();
         if (scrollY <= (mScreenHeight / 3f)) {
-            float alpha = 1 - (scrollY / (mScreenHeight / 3f));
+            float alpha = 1f - (scrollY / (mScreenHeight / 3f));
             Log.e("CSDN_LQR", "scrollY = " + scrollY);
             Log.e("CSDN_LQR", "alpha = " + alpha);
             mToolbar.setAlpha(alpha);
