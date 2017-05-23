@@ -66,6 +66,9 @@
         <activity
             android:name=".PaletteActivity2"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TabLayoutActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

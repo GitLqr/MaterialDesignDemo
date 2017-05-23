@@ -12,40 +12,52 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="swipeRefreshLayout"
-            android:text="SwipeRefreshLayout"
-            android:textAllCaps="false"/>
+            android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="listPopupWindow"
-            android:text="ListPopupWindow"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="swipeRefreshLayout"
+                android:text="SwipeRefreshLayout"
+                android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="popupMenu"
-            android:text="PopupMenu"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="listPopupWindow"
+                android:text="ListPopupWindow"
+                android:textAllCaps="false"/>
+        </LinearLayout>
 
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="linearLayoutCompat"
-            android:text="LinearLayoutCompat"
-            android:textAllCaps="false"/>
+            android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="recyclerView"
-            android:text="RecyclerView"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="popupMenu"
+                android:text="PopupMenu"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="linearLayoutCompat"
+                android:text="LinearLayoutCompat"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="recyclerView"
+                android:text="RecyclerView"
+                android:textAllCaps="false"/>
+        </LinearLayout>
 
         <Button
             android:layout_width="wrap_content"
@@ -68,53 +80,77 @@
             android:text="RecyclerViewDecorationThree"
             android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="itemTouchHelper"
-            android:text="ItemTouchHelper"
-            android:textAllCaps="false"/>
+            android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="textInputLayout"
-            android:text="TextInputLayout"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="itemTouchHelper"
+                android:text="ItemTouchHelper"
+                android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="searchView"
-            android:text="SearchView"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="textInputLayout"
+                android:text="TextInputLayout"
+                android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="searchView2"
-            android:text="仿网易云音乐本地音乐搜索"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="searchView"
+                android:text="SearchView"
+                android:textAllCaps="false"/>
+        </LinearLayout>
 
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="transparentToolbar"
-            android:text="仿微博上滑时Toolbar透明"
-            android:textAllCaps="false"/>
+            android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="palette"
-            android:text="Palette"
-            android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="searchView2"
+                android:text="仿网易云音乐本地音乐搜索"
+                android:textAllCaps="false"/>
 
-        <Button
-            android:layout_width="wrap_content"
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="transparentToolbar"
+                android:text="仿微博上滑时Toolbar透明"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="palette2"
-            android:text="Palette2"
-            android:textAllCaps="false"/>
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="palette"
+                android:text="Palette"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="palette2"
+                android:text="Palette2"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="tabLayout"
+                android:text="TabLayout"
+                android:textAllCaps="false"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

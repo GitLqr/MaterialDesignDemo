@@ -78,4 +78,8 @@ public class MainActivity extends AppCompatActivity {
     public void palette2(View view) {
         jumpToActivity(PaletteActivity2.class);
     }
+
+    public void tabLayout(View view) {
+        jumpToActivity(TabLayoutActivity.class);
+    }
 }
