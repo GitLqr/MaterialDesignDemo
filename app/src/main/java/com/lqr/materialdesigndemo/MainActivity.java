@@ -82,4 +82,16 @@ public class MainActivity extends AppCompatActivity {
     public void tabLayout(View view) {
         jumpToActivity(TabLayoutActivity.class);
     }
+
+    public void immersive(View view) {
+        jumpToActivity(ImmersiveActivity.class);
+    }
+
+    public void cardView(View view) {
+        jumpToActivity(CardViewActivity.class);
+    }
+
+    public void floatingActionButton(View view) {
+        jumpToActivity(FloatingActionButtonActivity.class);
+    }
 }

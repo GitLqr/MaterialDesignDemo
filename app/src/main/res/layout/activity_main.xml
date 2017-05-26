@@ -145,11 +145,39 @@
                 android:onClick="palette2"
                 android:text="Palette2"
                 android:textAllCaps="false"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="tabLayout"
                 android:text="TabLayout"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="immersive"
+                android:text="沉浸式"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="cardView"
+                android:text="CardView"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="floatingActionButton"
+                android:text="FloatingActionButton"
                 android:textAllCaps="false"/>
         </LinearLayout>
     </LinearLayout>
