@@ -94,4 +94,8 @@ public class MainActivity extends AppCompatActivity {
     public void floatingActionButton(View view) {
         jumpToActivity(FloatingActionButtonActivity.class);
     }
+
+    public void fakeFabInteractive(View view) {
+        jumpToActivity(FakeFabInteractiveActivity.class);
+    }
 }

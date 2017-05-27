@@ -79,6 +79,10 @@
         <activity
             android:name=".FloatingActionButtonActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FakeFabInteractiveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
