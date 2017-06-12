@@ -91,11 +91,33 @@ public class MainActivity extends AppCompatActivity {
         jumpToActivity(CardViewActivity.class);
     }
 
-    public void floatingActionButton(View view) {
-        jumpToActivity(FloatingActionButtonActivity.class);
-    }
+    public void floatingActionButton(View view) {        jumpToActivity(FloatingActionButtonActivity.class);    }
 
     public void fakeFabInteractive(View view) {
         jumpToActivity(FakeFabInteractiveActivity.class);
+    }
+
+    public void applayout1(View view) {
+        jumpToActivity(Applayout1Activity.class);
+    }
+
+    public void applayout2(View view) {
+        jumpToActivity(Applayout2Activity.class);
+    }
+
+    public void applayout3(View view) {
+        jumpToActivity(Applayout3Activity.class);
+    }
+
+    public void applayout4(View view) {
+        jumpToActivity(Applayout4Activity.class);
+    }
+
+    public void applayout5(View view) {
+        jumpToActivity(Applayout5Activity.class);
+    }
+
+    public void applayout6(View view) {
+        jumpToActivity(Applayout6Activity.class);
     }
 }

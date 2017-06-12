@@ -195,5 +195,61 @@
                 android:textAllCaps="false"/>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="applayout1"
+                android:text="scroll"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="applayout2"
+                android:text="enterAlways"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="applayout3"
+                android:text="enterAlwaysCollapsed"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="applayout4"
+                android:text="exitUntilCollapsed"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="applayout5"
+                android:text="snap"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="applayout6"
+                android:text="CollapsingToolbar"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

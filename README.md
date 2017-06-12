@@ -6,3 +6,4 @@
 4. [MaterialDesign之SearchView全面解锁](http://www.jianshu.com/p/7c1e78e91506)
 5. [MaterialDesign之学一波Palette](http://www.jianshu.com/p/b1255dde624a)
 6. [MaterialDesign之对TabLayout的探索](http://www.jianshu.com/p/bbefb97cccdd)
+7. [MaterialDesign之AppBarLayout与CollapsingToolbarLayout的学习](http://www.jianshu.com/p/91a56cf5e865)
