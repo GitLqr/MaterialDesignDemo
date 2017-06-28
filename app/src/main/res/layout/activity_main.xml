@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lqr.materialdesigndemo.MainActivity">
+    tools:context="com.lqr.materialdesigndemo.activity.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -243,11 +243,63 @@
                 android:onClick="applayout5"
                 android:text="snap"
                 android:textAllCaps="false"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="applayout6"
                 android:text="CollapsingToolbar"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义Behavior"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="behavior1"
+                android:text="某个View需要监听另外一个view的状态"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="behavior2"
+                android:text="某个View需要监听CoordinatorLayout里面所有控件的滑动状态"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="object_animation"
+                android:text="属性动画"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="behavior2"
+                android:text="某个View需要监听CoordinatorLayout里面所有控件的滑动状态"
                 android:textAllCaps="false"/>
 
         </LinearLayout>

@@ -1,4 +1,4 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,8 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+
+import com.lqr.materialdesigndemo.R;
 
 
 public class TextInputLayoutActivity extends AppCompatActivity {

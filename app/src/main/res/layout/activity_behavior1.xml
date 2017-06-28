@@ -1,0 +1,33 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left|top"
+        android:background="#ff0"
+        android:tag="tv1"
+        android:text="被观察--dependent"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right|top"
+        android:background="#f00"
+        android:text="观察者"
+        app:layout_behavior="com.lqr.materialdesigndemo.behavior.CustomerBehavior1"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#f00"-->
+        <!--android:text="观察者"-->
+        <!--app:layout_behavior="com.lqr.materialdesigndemo.behavior.CustomerBehavior1"/>-->
+
+</android.support.design.widget.CoordinatorLayout>

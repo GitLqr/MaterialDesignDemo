@@ -1,4 +1,4 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
+import com.lqr.materialdesigndemo.R;
 import com.lqr.materialdesigndemo.adapter.ItemTouchHelperAdapter;
 import com.lqr.materialdesigndemo.callback.MyItemTouchHelperCallback;
 import com.lqr.materialdesigndemo.data.Cheeses;

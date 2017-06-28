@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -21,92 +21,104 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SwipeRefreshLayoutActivity"
+            android:name=".activity.SwipeRefreshLayoutActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".ListPopupWindowActivity"
+            android:name=".activity.ListPopupWindowActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".PopupMenuActivity"
+            android:name=".activity.PopupMenuActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".LinearLayoutCompatActivity"
+            android:name=".activity.LinearLayoutCompatActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".RecyclerViewActivity"
+            android:name=".activity.RecyclerViewActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".RecyclerVIewDecorationActivityOne"
+            android:name=".activity.RecyclerVIewDecorationActivityOne"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".RecyclerVIewDecorationActivityTwo"
+            android:name=".activity.RecyclerVIewDecorationActivityTwo"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".RecyclerVIewDecorationActivityThree"
+            android:name=".activity.RecyclerVIewDecorationActivityThree"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".ItemTouchHelperActivity"
+            android:name=".activity.ItemTouchHelperActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".TextInputLayoutActivity"
+            android:name=".activity.TextInputLayoutActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".SearchViewActivity"
+            android:name=".activity.SearchViewActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".SearchViewActivity2"
+            android:name=".activity.SearchViewActivity2"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar2"/>
         <activity
-            android:name=".TransparentToolbarActivity"
+            android:name=".activity.TransparentToolbarActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".PaletteActivity"
+            android:name=".activity.PaletteActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".PaletteActivity2"
+            android:name=".activity.PaletteActivity2"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".TabLayoutActivity"
+            android:name=".activity.TabLayoutActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".ImmersiveActivity"
+            android:name=".activity.ImmersiveActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".CardViewActivity"
+            android:name=".activity.CardViewActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".FloatingActionButtonActivity"
+            android:name=".activity.FloatingActionButtonActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".FakeFabInteractiveActivity"
+            android:name=".activity.FakeFabInteractiveActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Applayout1Activity"
+            android:name=".activity.Applayout1Activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Applayout2Activity"
+            android:name=".activity.Applayout2Activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Applayout3Activity"
+            android:name=".activity.Applayout3Activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Applayout4Activity"
+            android:name=".activity.Applayout4Activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Applayout5Activity"
+            android:name=".activity.Applayout5Activity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".Applayout6Activity"
+            android:name=".activity.Applayout6Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.BehaviorActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.BehaviorActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.ObjectAnimationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>

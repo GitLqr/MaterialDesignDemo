@@ -1,4 +1,4 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
+
+import com.lqr.materialdesigndemo.R;
 
 public class ListPopupWindowActivity extends AppCompatActivity {
 

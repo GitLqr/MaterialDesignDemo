@@ -1,9 +1,11 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.lqr.materialdesigndemo.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -91,7 +93,9 @@ public class MainActivity extends AppCompatActivity {
         jumpToActivity(CardViewActivity.class);
     }
 
-    public void floatingActionButton(View view) {        jumpToActivity(FloatingActionButtonActivity.class);    }
+    public void floatingActionButton(View view) {
+        jumpToActivity(FloatingActionButtonActivity.class);
+    }
 
     public void fakeFabInteractive(View view) {
         jumpToActivity(FakeFabInteractiveActivity.class);
@@ -119,5 +123,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void applayout6(View view) {
         jumpToActivity(Applayout6Activity.class);
+    }
+
+    public void behavior1(View view) {
+        jumpToActivity(BehaviorActivity1.class);
+    }
+
+    public void behavior2(View view) {
+        jumpToActivity(BehaviorActivity2.class);
+    }
+
+    public void object_animation(View view) {
+        jumpToActivity(ObjectAnimationActivity.class);
     }
 }

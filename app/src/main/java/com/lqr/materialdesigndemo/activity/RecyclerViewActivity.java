@@ -1,4 +1,4 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.lqr.materialdesigndemo.R;
 import com.lqr.materialdesigndemo.adapter.MyAdapter;
 import com.lqr.materialdesigndemo.adapter.MyStaggeredAdapter;
 

@@ -1,4 +1,4 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.lqr.materialdesigndemo.R;
 import com.lqr.materialdesigndemo.fragment.TextFragment;
 
 import java.lang.reflect.Field;

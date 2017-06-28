@@ -1,4 +1,4 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.lqr.materialdesigndemo.R;
 
 
 public class PaletteActivity extends AppCompatActivity {

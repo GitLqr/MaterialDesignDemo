@@ -1,10 +1,12 @@
-package com.lqr.materialdesigndemo;
+package com.lqr.materialdesigndemo.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.view.View;
+
+import com.lqr.materialdesigndemo.R;
 
 /**
  * @创建者 CSDN_LQR
