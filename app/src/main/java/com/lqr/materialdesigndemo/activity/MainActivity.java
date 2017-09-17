@@ -136,4 +136,12 @@ public class MainActivity extends AppCompatActivity {
     public void object_animation(View view) {
         jumpToActivity(ObjectAnimationActivity.class);
     }
+
+    public void object_animation2(View view) {
+        jumpToActivity(ObjectAnimationActivity2.class);
+    }
+
+    public void android5newfeature1(View view) {
+        jumpToActivity(Android5NewFeatureActivity.class);
+    }
 }

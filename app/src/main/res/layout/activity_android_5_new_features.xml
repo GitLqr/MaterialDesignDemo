@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="水波纹"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="none"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="none"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:text="none"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="揭露效果"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_reveal_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="中心揭露"/>
+
+        <Button
+            android:id="@+id/btn_reveal_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="左上揭露"/>
+
+    </LinearLayout>
+
+</LinearLayout>

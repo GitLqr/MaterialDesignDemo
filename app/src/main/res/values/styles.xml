@@ -19,6 +19,11 @@
         <item name="android:textColorSecondary">#ffffff</item>
     </style>
 
+    <style name="AppTheme.NoActionBar.Android5" parent="AppTheme.NoActionBar">
+        <item name="colorButtonNormal">#fff</item>
+        <item name="colorControlHighlight">#D33A31</item>
+    </style>
+
     <!--没有ActionBar主题，自定义SearchView样式-->
     <style name="AppTheme.NoActionBar2" parent="AppTheme">
         <item name="colorPrimary">#D33A31</item>

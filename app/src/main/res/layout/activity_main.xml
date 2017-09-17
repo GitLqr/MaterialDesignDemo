@@ -290,6 +290,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="behavior2"
+                android:text="某个View需要监听CoordinatorLayout里面所有控件的滑动状态"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="object_animation"
                 android:text="属性动画"
                 android:textAllCaps="false"/>
@@ -298,10 +313,36 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="behavior2"
-                android:text="某个View需要监听CoordinatorLayout里面所有控件的滑动状态"
+                android:onClick="object_animation2"
+                android:text="属性动画2"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android5.0新特性"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="android5newfeature1"
+                android:text="水波纹"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
                 android:textAllCaps="false"/>
 
         </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

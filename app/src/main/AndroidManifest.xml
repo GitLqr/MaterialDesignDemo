@@ -121,6 +121,14 @@
             android:name=".activity.ObjectAnimationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.ObjectAnimationActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.Android5NewFeatureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.Android5"/>
     </application>
 
 </manifest>
